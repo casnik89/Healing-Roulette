@@ -4,7 +4,7 @@ background-size: cover;
 background-position: center;    
 }
 
-div {
+#choice {
     font-size: 30px;
     font-family: 'Iceland', cursive;
     display: flex;
@@ -12,4 +12,28 @@ div {
     align-items: center;
     justify-content: center;
    min-height: 100vh;
+}
+
+.roulet {    font-size: 50px;
+    font-family: 'Iceland', cursive;
+     margin-bottom: 20px;
+}
+
+.submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.instrutions {
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
+    margin-top: 20px;
 }
