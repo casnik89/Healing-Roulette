@@ -11,7 +11,7 @@ A web application that pairs daily stressors and the emotion it produces with a 
     - Tracking for common stressors, emotions and times when stress is addressed with the app. 
 
 ## How to use
-1. Open the `index.html` file in your browser 2. Select a stressor from the first drop-down menu 3. Select the emotion you're experiencing (anger, sadness, or stuck/numb) from the second drop-down menu 4. Click the button to get a random healthy response tailored to your stressor and emotion 5. Commit to doing the response, no matter what it is 6. Optional: Journal about your experience (save or delete) 7. Optional: Use the Affirmation Station for positive messages 8. Optional: Use the Breathing Coach counter for guided breathing 9. Check the Tracking section to see patterns in your stressors and emotions
+1. Open the `index.html` file in your browser 2. Select a stressor from the first drop-down menu 3. Select the emotion you're experiencing (anger, sadness, or stuck/numb) from the second drop-down menu 4. Click the button to get a random healthy response tailored to your stressor and emotion 5. Commit to doing the response, no matter what it is 6. Optional: Journal about your experience (save or delete) 7. Optional: Use the Affirmation Station for positive messages 8. Optional: Use the Breathing Coach counter for guided breathing 9. Check the Tracking section to see patterns in your stressors and emotions.
 
 ## Files
     - HTML5

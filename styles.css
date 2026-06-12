@@ -17,23 +17,41 @@ background-position: center;
 .roulet {    font-size: 50px;
     font-family: 'Iceland', cursive;
      margin-bottom: 20px;
+     color: #389797; /* Green */
 }
 
 .submit {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: #d01245; /* Pink */
+    border: bold 2px solid #000000; /* Black border */
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+     font-family: 'Irish Grover', cursive;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .instrutions {
     font-size: 20px;
-    font-family: 'Irish Grover', cursive;
+    margin-top: 20px;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+#stress {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Iceland', cursive;
+    margin-top: 20px;
+}
+
+#emo {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Iceland', cursive;
     margin-top: 20px;
 }
