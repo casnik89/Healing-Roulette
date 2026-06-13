@@ -4,6 +4,20 @@ background-size: cover;
 background-position: center;    
 }
 
+.anxtfunc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.anxtfunc h1 {
+    font-size: 24px;
+    font-family: 'Iceland', cursive;
+    color: #389797; /* Green */
+}
+
 #choice {
     font-size: 30px;
     font-family: 'Iceland', cursive;
