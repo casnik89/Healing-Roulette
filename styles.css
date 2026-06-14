@@ -21,9 +21,10 @@ background-position: center;
 
 .intro p {
     font-size: 18px;
-    font-family: 'Petit Formal Script', cursive;
-     color: #d01245; /* Pink */
-     margin: 20px;
+    font-family: Encode Sans Semi Expanded, sans-serif;
+     color: #d1607e; /* Pink */
+     margin-left: 50px;
+        margin-right: 50px;
 }
 
 #choice {
