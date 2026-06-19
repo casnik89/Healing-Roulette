@@ -4,27 +4,43 @@ background-size: cover;
 background-position: center;    
 }
 
+.taskbar {
+    background-color: rgba(40, 173, 191, 0.9); /* Semi-transparent black */
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
 .anxtfuncs {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 10px;
+    padding: 50px 10px;
 }
 
 .anxtfuncs h1 {
     font-size: 24px;
-    font-family: 'Iceland', cursive;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     color: #389797; /* Green */
     margin: 0;
 }
 
-.intro p {
+.intro {
+    background-color: rgba(47, 15, 90, 0.8); /* Semi-transparent white */
+}
+.intro P {
     font-size: 18px;
     font-family: Encode Sans Semi Expanded, sans-serif;
      color: #d1607e; /* Pink */
-     margin-left: 50px;
-        margin-right: 50px;
+     margin-left: 200px;
+     margin-right: 200px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #choice {
@@ -37,10 +53,14 @@ background-position: center;
    min-height: 100vh;
 }
 
-.roulet {    font-size: 50px;
+.roulet {   
+     font-size: 50px;
     font-family: 'Iceland', cursive;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
      color: #389797; /* Green */
+     justify-content: center;
+        display: flex;
+        align-items: center;
 }
 
 .submit {
@@ -50,10 +70,10 @@ background-position: center;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 20px;
      font-family: 'Irish Grover', cursive;
-    margin-top: 20px;
+    margin: 10px auto;
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -63,18 +83,33 @@ background-position: center;
     font-size: 20px;
     margin-top: 20px;
     font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+     color: #d1607e; /* Pink */
+     background-color: rgba(37, 22, 98, 0.8); /* Semi-transparent white */
+     font-weight: 700;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.stressors {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 #stress {
-    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
+        padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
-    margin-top: 20px;
 }
 
 #emo {
-    padding: 10px;
+      border-radius: 10px;
+    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
+        padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
-    margin-top: 20px;
 }
