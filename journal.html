@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Iceland&family=Irish+Grover&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <nav class="taskbar">
+    <ul>
+      <li><a href="login.html">Read More</a></li>
+      <li><a href="journal.html">Journal</a></li>
+      <li><a href="healing.html">Healing Roulet</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+    <div class="journal" id="journal">
+        <h4 class="title">Rant and Delete or Write and Save</h4>
+<form><label for="entry-date">Date:</label><input type="date" id="entry-date" name="entry-date"><br>
+  <label for="entrty-title">Title:</label><input type="text" id="entry-title" name="entry-title"><br>
+  <textarea id="journal-entry" name="journal-entry" rows="10" cols="70"></textarea><br>
+</form>
+<div class="jbuttons">
+<button class="save">Save</button>
+<button class="delete">Delete</button>
+</div>
+ <script src="journal.js"></script>   
+</body>
+</html>
