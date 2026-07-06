@@ -31,7 +31,7 @@ const responses = {
 // conflict + panic 
     "con-panic": ["Put feet on the floor, press down, feel the ground for 30 seconds.", "Breathe: 4 in, 4 hold, 6 out. Repeat 5 times.", "Say: 'I’m flooded, but I’m safe. I only need the next minute.'", "Step away from the person for 5 minutes and breathe.", "Write the next single tiny step and do only that."],
 // conflict + numbness 
-     "conflict-numb": [    "Move your body for 2 minutes (shake, stretch, dance).",    "Hold something warm and focus on the temperature for 1 minute.", "Say: 'Numbness is protection. I’m allowed to feel nothing for now.'", "Write one sentence: 'Right now, I feel ___. It’s okay.'", "Do 5 slow stretches and name how each muscle feels."],
+     "con-numb": [    "Move your body for 2 minutes (shake, stretch, dance).",    "Hold something warm and focus on the temperature for 1 minute.", "Say: 'Numbness is protection. I’m allowed to feel nothing for now.'", "Write one sentence: 'Right now, I feel ___. It’s okay.'", "Do 5 slow stretches and name how each muscle feels."],
   // time pressure + anger 
     "time-anger": [    "Say: 'I don’t have to do it all. I just need the next step.'",    "Do 10 slow breaths: 4 in, 6 out.",    "Write down the top 1 thing and do only that for 5 minutes.",    "Take a 5-minute walk and name 3 things you see.",    "Write: 'I’m allowed to be behind and still be okay.'"],
   // time pressure + rage  
@@ -67,6 +67,3 @@ const options = responses[key];
 const randomIndex = Math.floor(Math.random() * options.length);
 result.textContent = options[randomIndex];
 });
-
-
-

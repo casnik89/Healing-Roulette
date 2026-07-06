@@ -17,18 +17,33 @@
       <li><a href="journal.html">Journal</a></li>
       <li><a href="healing.html">Healing Roulet</a></li>
       <li><a href="login.html">Login</a></li>
+      <li><a href="affirmation.html">Affirmation Station</a></li>
+      <li><a href="breathwork.html">Breath-Work</a></li>
     </ul>
   </nav>
+
+
     <div class="journal" id="journal">
-        <h4 class="title">Rant and Delete or Write and Save</h4>
-<form><label for="entry-date">Date:</label><input type="date" id="entry-date" name="entry-date"><br>
-  <label for="entrty-title">Title:</label><input type="text" id="entry-title" name="entry-title"><br>
-  <textarea id="journal-entry" name="journal-entry" rows="10" cols="70"></textarea><br>
-</form>
-<div class="jbuttons">
-<button class="save">Save</button>
-<button class="delete">Delete</button>
-</div>
- <script src="journal.js"></script>   
+
+      <h4 class="title">Rant and Delete or Write and Save</h4>
+
+      <form><label for="entry-date">Date:</label><input type="date" id="entry-date" name="entry-date">
+          <label for="entrty-title">Title:</label><input type="text" id="entry-title" name="entry-title"><br><br>
+          <textarea id="journal-entry" name="journal-entry" rows="10" cols="70"></textarea><br>
+      </form>
+      
+      <div id="savemessage" class="savemessage"></div>
+      <div class="jbuttons">
+      <button class="glow-button">Save</button>
+      <button class="glow-button">Delete</button>
+      <button class="glow-button">Past Entries</button>
+      <div class="display">
+        <select class="entries">
+           <option selected disabled hidden>Title and date of past journal entries.</option>
+        </select>
+      </div>
+    </div>
+<div id="journal-space"></div>
+ <script src="journal.js" defer></script>   
 </body>
 </html>

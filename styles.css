@@ -1,5 +1,5 @@
 body {
-background-image: linear-gradient(rgb(47, 15, 90, 0.6), rgb(47, 15, 90, 0.6)), url("https://images.unsplash.com/photo-1780678839543-1abf5a0b8d71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-image: linear-gradient(rgba(43, 17, 78, 0.8), rgba(36, 11, 69, 0.6)), url("https://images.unsplash.com/photo-1780678839543-1abf5a0b8d71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 background-size: cover;
 background-position: center;    
 padding-top: 40px;
@@ -9,9 +9,11 @@ overflow-x: hidden;
 }
 
 
-/*Navigation on all HTMLS*/
+                                    /*Navigation on all HTMLS*/
+
+
 .taskbar {
-    background-color: #389797; /* Semi-transparent black */
+    background-color: rgba(43, 17, 78);
     padding: 5px 20px;
     position: fixed;
     top: 0;
@@ -37,11 +39,11 @@ overflow-x: hidden;
 }
 
 .taskbar ul a{
-color: rgb(29, 9, 100);
+color: hsla(295, 90%, 50%);
 }
 
 
-/*Login page with intro paragrapg*/
+                            /*Login page with intro paragrapg*/
 
 
 .login {
@@ -65,7 +67,7 @@ border-radius: 10px;
 .login label {
  font-size: 24px;
     font-family: 'Iceland', cursive;
-    color: #d01245;
+    color: hsl(295, 80%, 70%);;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
@@ -75,40 +77,40 @@ border-radius: 10px;
 
 
 .login input {
-background-color: #389797;
+background-color: hsl(180, 70%, 70%);
 font-size: 20px;
-color:#d01245;
+color:hsl(295, 84%, 44%);
  width: 100%;
-    max-width: 200px;
-    margin: 10px;
-    border-radius: 10px;
+ max-width: 200px;
+margin: 10px;
+border-radius: 10px;
 }
 
 .login button {
 font-size: 50px;
-    font-family: 'Iceland', cursive;
-     margin-bottom: 10px;
-     color: #389797; /* Green */
-     padding-right: 20px;
- width: 100%;
-    max-width: 200px;
-    margin-top: 20px;
-    background-color: #d01245;
-    border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    }
+font-family: 'Iceland', cursive;
+margin-bottom: 10px;
+color: hsl(180, 70%, 70%);
+padding-right: 20px;
+width: 100%;
+max-width: 200px;
+margin-top: 20px;
+background-color: hsl(295, 80%, 30%);
+border-radius: 10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+border-radius: 10px;
+}
 
-   .login #message {
-    font-size: 26px;
-    font-family: 'Encode Sans Semi Condensed';
-    color: #13b4c3cc;
-    text-shadow: 2px 2px 4px rgb(1, 1, 3);
-    font-weight: 700;
-    }
+.login #message {
+font-size: 26px;
+font-family: 'Encode Sans Semi Condensed';
+color: hsl(180, 70%, 70%);
+text-shadow: 2px 2px 4px rgb(1, 1, 3);
+font-weight: 700;
+}
 
 
-    /*Intro section of login page*/
+                                     /*Intro section of login page*/
 
 
 .intro {
@@ -118,14 +120,14 @@ font-size: 50px;
     justify-content: center;
     padding: 20px;
      margin: 0 auto;
-     max-width: 700px;
+     max-width: 900px;
 }
 
 .intro h4 {
      font-size: 50px;
     font-family: 'Iceland', cursive;
      margin-bottom: 10px;
-     color: #389797; /* Green */
+     color: hsl(180, 70%, 70%); /* Green */
      padding: 10px 20px;
      border-radius: 10px;
      width:fit-content;
@@ -134,13 +136,15 @@ font-size: 50px;
 }
 
 .intro span{
-    font-size: 18px;
+    font-size: 20px;
     font-family: Encode Sans Semi Expanded, sans-serif;
-     color: #d01245;
+     color: hsla(295, 80%, 50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    line-height: 1.5;
 }
 
-    /*Anxiety functions and healing roulet section*/
+                            /*Anxiety functions and healing roulet section*/
 
 
 .anxtfuncs {
@@ -156,7 +160,7 @@ font-size: 50px;
     font-family: 'Iceland', cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
      margin-bottom: 10px;
-     color: #389797; /* Green */
+     color: hsl(180, 70%, 70%);
      padding: 20px 20px;
      justify-content: center;
 }
@@ -169,7 +173,7 @@ font-size: 50px;
     font-size: 20px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-weight: 800;
-    color: #389797; /* Green */
+    color: hsl(180, 70%, 70%); /* Green */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
      padding: 20px;
      align-items: center;
@@ -188,7 +192,7 @@ font-size: 50px;
 
 
 .submit {
-    background-color: #d01245; /* Pink */
+    background-color: hsl(295, 80%, 30%); /* Pink */
     border: bold 2px solid #000000; /* Black border */
     color: white;
     padding: 15px 32px;
@@ -206,31 +210,30 @@ font-size: 50px;
 .result-wrap {
     display: flex;
     justify-content: center;
-    text-shadow: 2px 2px 4px rgb(1, 1, 3);
 }
 
 .result {
-    font-size: 26px;
-    font-family: 'Encode Sans Semi Condensed';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #13b4c3cc;
-    text-shadow: 2px 2px 4px rgb(1, 1, 3);
-    font-weight: 700;
+font-size: 26px;
+font-family: 'Encode Sans Semi Condensed';
+display: flex;
+justify-content: center;
+align-items: center;
+color: hsl(180, 70%, 70%);
+text-shadow: 2px 2px 4px rgb(1, 1, 3);
+font-weight: 700;
 }
 
 .instructions {
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
+font-size: 20px;
+margin-top: 20px;
+text-align: center;
 }
 
 .instructions span {
      font-weight: 700;
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
      font-family: 'Petit Formal Script', cursive;
-     color: #d01245; /* Pink */
+     color: hsl(295, 80%, 70%);
 }
 
 .stressors {
@@ -249,8 +252,8 @@ font-size: 50px;
 }
 
 #stress {
-    border-radius: 10px;
-    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
+    border-radius: 10px; 
+    background-color: hsl(180, 70%, 70%, 0.8); /* Semi-transparent white */
         padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
@@ -263,7 +266,7 @@ font-size: 50px;
 
 #emo {
       border-radius: 10px;
-    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
+    background-color: hsla(180, 70%, 70%, 0.8); /* Semi-transparent white */
         padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
@@ -276,7 +279,7 @@ font-size: 50px;
 
 
 
-/*Journal Section with save and delete buttons*/
+                    /*Journal Section with save and delete buttons*/
 
 
 .rant {
@@ -291,19 +294,19 @@ font-size: 50px;
     font-size: 24px;
     font-family: Encode Sans Semi Expanded, sans-serif;
     font-weight: 700;
-    color:#d01245;
+    color: hsl(180, 80%, 50%);
     text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    background-color: #13b4c3cc;
+    background-color: hsl(295, 80%, 30%);
     border-radius: 10px;
     padding: 20px;
-    border: 5px solid #d01245;
+    border: 5px solid hsl(180, 80%, 30%);
     width: fit-content;
 }
 
-.journal{
+.journal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,9 +317,9 @@ font-size: 50px;
 }
 
 .journal h4 {
-    font-size: 32px;
+    font-size: 40px;
     font-family: 'Iceland', cursive;
-    color: #d01245;
+    color: hsl(295, 80%, 60%);
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -324,30 +327,30 @@ font-size: 50px;
 .journal label {
     font-size: 24px;
     font-family: 'Iceland', cursive;
-    color: #d01245;
+    color: hsl(295, 80%, 50%);
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 }
 
 .journal input {
-    background-color: rgba(39, 173, 171, 0.8);
+    background-color: hsl(180, 70%, 70%, 0.8);
     font-size: 24px;
-    color: #d01245;
+    color: hsl(295, 80%, 30%);
     border-radius: 10px;
-    border: 5px solid #d01245;
+    border: 5px solid hsl(295, 80%, 30%);
 }
 
 .journal textarea {
     width: 100%;
     padding: 10px;
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Iceland', cursive;
     font-weight: 600;
-    color: #d3cee7;
+    color: hsl(253, 56%, 88%);
     border-radius: 10px;
     border: none;
-    background-image: linear-gradient(rgb(56, 151, 151, 0.6), rgb(56, 151, 151, 0.6)), url('journal.avif');
+    background-image: linear-gradient(hsla(266, 64%, 19%, 0.8), hsla(266, 64%, 19%, 0.8)), url('journal.avif');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -355,7 +358,7 @@ font-size: 50px;
 }
 
 .journal textarea:focus {
-border: 5px solid #d01245;
+border: 5px solid hsl(295, 80%, 40%);
 }
 
 .jbuttons {
@@ -367,7 +370,7 @@ border: 5px solid #d01245;
 }
 
 .save{
- background-color: rgb(208, 18, 69); /* Pink */
+ background-color: hsl(295, 80%, 30%); /* Pink */
     border: bold 2px solid #000000; /* Black border */
     color: white;
     padding: 15px 32px;
@@ -383,7 +386,7 @@ border: 5px solid #d01245;
 }
 
 .delete{
- background-color: #d01245; /* Pink */
+ background-color: hsl(295, 80%, 30%); /* Pink */
     border: bold 2px solid #000000; /* Black border */
     color: white;
     padding: 15px 32px;
@@ -399,7 +402,7 @@ border: 5px solid #d01245;
 }
 
 .previous {
-    background-color: #d01245; /* Pink */
+    background-color: hsl(295, 80%, 30%); /* Pink */
     border: bold 2px solid #000000; /* Black border */
     color: white;
     padding: 15px 32px;
@@ -414,30 +417,31 @@ border: 5px solid #d01245;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#savemessge {
+.journal .savemessage {
     font-size: 26px;
     font-family: 'Encode Sans Semi Condensed';
-    color: #13b4c3cc;
+    color: hsla(185, 80%, 60%, 0.8);
     text-shadow: 2px 2px 4px rgb(1, 1, 3);
     font-weight: 700;
+    padding: 40px;
 }
 
 .entries {
      border-radius: 10px;
-    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
-        padding: 10px;
+    background-color: hsla(180, 70%, 70%, 0.8);
+    padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
     color: #130845;
     font-size: 20px;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        font-weight: 700;
-        text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    text-align: center;
 }
 
 .entries option {
     border-radius: 10px;
-    background-color: rgba(39, 173, 171, 0.8); /* Semi-transparent white */
+    background-color: hsla(180, 70%, 70%, 0.8);
         padding: 10px;
     font-size: 16px;
     font-family: 'Iceland', cursive;
@@ -457,12 +461,311 @@ border: 5px solid #d01245;
     color: #d3cee7;
     border-radius: 10px;
     border: none;
-    background-image: linear-gradient(rgb(56, 151, 151, 0.6), rgb(56, 151, 151, 0.6)), url('journal.avif');
+    background-image: linear-gradient(hsla(180, 70%, 41%, 0.7), hsla(180, 46%, 41%, 0.7)), url('journal.avif');
     background-size: cover;
     background-position: center;
     height: 40vh;
     border-radius: 10px;
     display: none;
-    margin-top 40px;
-    over-flow: scroll;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+                                        /*Affirmation station styles*/
+
+.affirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 6rem;
+}
+
+/*.output {}*/
+
+.affirm {
+font-size: 30px;
+    font-family: 'Encode Sans Semi Condensed';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(180, 70%, 70%);
+    text-shadow: 2px 2px 4px rgb(1, 1, 3);
+    font-weight: 700;
+}
+
+.breath {
+     justify-content: center;
+     display: flex;
+     gap: 6rem;
+}
+
+.breath label {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    color:hsl(180, 80%, 60%);
+    font-size: 30px;
+    font-weight: 700;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     font-family: 'Petit Formal Script', cursive;
+}
+
+
+.glow-button {
+  /* Keep your current size/shape */
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Irish Grover', cursive;
+  border-radius: 40%;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+
+  /* Match breathwork button vibe: radial gradient */
+  background: radial-gradient(circle at 30% 30%, #dd5ee9, #1e1b4b);
+
+  /* No borders/outlines that could create a dark ring */
+  border: none;
+  outline: none;
+
+  /* Glow similar to breath-circle */
+  box-shadow:
+    0 10px 30px rgba(79, 70, 229, 0.35),
+    inset 0 0 40px rgba(255, 255, 255, 0.05);
+
+  /* Smooth transitions */
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+
+  /* Gentle pulse */
+  animation: deep-pulse 2.8s ease-in-out infinite;
+}
+
+/* Remove any default focus outline */
+.glow-button:focus {
+  outline: none;
+}
+
+/* Slightly brighter on hover, like your original intent */
+.glow-button:hover {
+  filter: brightness(1.08);
+  box-shadow:
+    0 12px 35px rgba(79, 70, 229, 0.45),
+    inset 0 0 50px rgba(255, 255, 255, 0.08);
+}
+
+/* Press-down feel */
+.glow-button:active {
+  transform: translateY(3px) scale(0.98);
+  box-shadow:
+    0 6px 20px rgba(79, 70, 229, 0.25),
+    inset 0 0 30px rgba(255, 255, 255, 0.03);
+}
+
+/* Pulse animation: subtle size + glow change */
+@keyframes deep-pulse {
+  0%, 100% {
+    transform: translateY(0);
+    box-shadow:
+      0 10px 30px rgba(79, 70, 229, 0.35),
+      inset 0 0 40px rgba(255, 255, 255, 0.05);
+  }
+
+  50% {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow:
+      0 14px 38px rgba(79, 70, 229, 0.5),
+      inset 0 0 50px rgba(255, 255, 255, 0.08);
+  }
+}
+ .explain {
+       font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     font-family: 'Petit Formal Script', cursive;
+     color: hsl(295, 80%, 65%); /* Pink */
+     max-width: 50%;
+}
+
+                                            /*BreathWork Page*/
+.breathwork {
+    color: hsl(180, 70%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+}
+
+                                        /*Title / heading*/
+
+.breathwork-title { 
+    font-size: 1.8rem; 
+    font-weight: 700; 
+    text-align: center; 
+    margin: 0; 
+    letter-spacing: 0.02em;
+}
+
+                                                /*Circle button*/
+
+.breath-circle { 
+    width: 220px;
+    height: 220px; 
+    border-radius: 50%; 
+    border: none; 
+    cursor: pointer; 
+    margin: 50px auto; 
+    display: grid; 
+    place-items: center; 
+    text-align: center; 
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    line-height: 1.3; 
+    color: #fff; 
+    background: radial-gradient(circle at 30% 30%, #dd5ee9, #1e1b4b); 
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.35), inset 0 0 40px rgba(255, 255, 255, 0.05); 
+    transition: transform 4s ease-in-out, box-shadow 0.3s ease, filter 0.3s ease; 
+    user-select: none; 
+    -webkit-tap-highlight-color: transparent;
+}
+
+.breath-circle:hover { 
+    box-shadow: 0 15px 40px rgba(79, 70, 229, 0.5), inset 0 0 50px rgba(255, 255, 255, 0.08); 
+    filter: brightness(1.05);
+}
+
+.breath-circle:active { 
+    filter: brightness(0.95);
+}
+
+/* Breathing states */
+
+.breath-circle.inhale { 
+    transform: scale(1.6);
+}
+
+.breath-circle.inhale1 {
+transform: scale(1.2);
+}
+
+.breath-circle.inhale2 {
+    transform: scale(1.4);
+}
+
+.breath-circle.pause {
+    transform: scale(1.4);
+}
+
+.breath-circle.holdin { 
+    transform: scale(1.6);
+}
+
+.breath-circle.exhale { 
+    transform: scale(1);
+}
+
+.breath-circle.holdout {
+    transform: scale(1);
+}
+
+                        /* Optional: disable pointer when not running */
+
+.breath-circle.disabled { 
+    opacity: 0.6; 
+    cursor: not-allowed; 
+    filter: grayscale(0.3);
+}
+
+/*Text inside / below circle*/
+
+                        /*If you have a separate element for the main breath text*/
+
+#breath-text { 
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 80%;
+}
+
+.instruct {
+    font-size: 1.4rem;
+    font-weight: 600; 
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 70%;
+}
+
+                    /*If you have a label under the circle (instructions, style name, etc.)*/
+
+#breath-label { 
+    font-size: 1.2rem; 
+    color: #e1eeef; 
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 90%;
+}
+                                            /*Radio group (breath styles)*/
+
+.breath-options { 
+    display: flex; 
+    flex-direction: row;
+     gap: 1rem;
+    }
+
+.breath-option { 
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+    cursor: pointer; user-select: none;
+}
+                /*Hide default radio and style our own if you want, or just style the label*/
+
+.breath-option input[type="radio"] { 
+    accent-color: #4f46e5; width: 1.1em; height: 1.1em; cursor: pointer;
+}
+
+.breath-option-label { 
+    font-size: 1rem; 
+    color: #e5e7eb;
+}
+
+                                    /* Optional: highlight selected */
+
+.breath-option input[type="radio"]:checked + .breath-option-label { 
+    color: #a5b4fc; 
+    font-weight: 600;
+}
+
+                                /*Optional: small helper / note text*/
+
+
+.breath-note { 
+    font-size: 0.85rem; 
+    color: #9ca3af; 
+    text-align: center; 
+    margin-top: 0.5rem;
+}
+
+                                        /*Responsive tweaks*/
+
+@media (max-width: 420px) {
+     .breath-circle { 
+        width: 190px; 
+        height: 190px; 
+        font-size: 1rem; 
+    }
+
+ .breathwork-title { 
+    font-size: 1.5rem;
+ }
+
+ #breath-text { 
+    font-size: 1.1rem; 
+}
 }
