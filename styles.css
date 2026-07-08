@@ -191,9 +191,7 @@ font-weight: 700;
 }
 
 
-.submit {
-    background-color: hsl(295, 80%, 30%); /* Pink */
-    border: bold 2px solid #000000; /* Black border */
+#submit {
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -203,8 +201,6 @@ font-weight: 700;
      font-family: 'Irish Grover', cursive;
     margin: 10px auto;
     cursor: pointer;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .result-wrap {
